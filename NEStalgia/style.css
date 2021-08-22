@@ -1,6 +1,6 @@
 /* Author:  Joseph Maiello
  Date:      08/16/2021
- File Name: style.html */
+ File Name: style.css */
 
 
 /*Target all selector, ### put in lobster font */
@@ -59,7 +59,7 @@ h3{
     }
 } 
 
-/* Header, and video styles ### maybe change view height */ 
+/* Header, and video styles  */ 
 .header{
     min-height: 80vh;
     width: 100%;
@@ -252,7 +252,7 @@ h3{
 } 
 
 
-/*-------------- Facilities ----------------*/
+/*-------------- Services ----------------*/
 
 .services{
     width: 80%;
