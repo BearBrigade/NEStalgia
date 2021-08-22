@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+<html>
+<head> 
+    <!-- Author:    Joseph Maiello
+     Date:      08/16/2021
+     File Name: about.html -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEStalgia | All your Brews are belong to us.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="nes_logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="Esports.html">ESPORTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>  
+    </section>
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Meet the people behind NEStagia</h1>     
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Viverra nam libero justo laoreet. Risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Arcu cursus vitae congue mauris.</p>
+        </div>
+        <div class="about-col">
+            <img src="nes_aboutus.png">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Hey, Listen!</h4>
+        <p>Key-Code to enter is up, up, down, down, left, right, left, right, B, A and the Start button. <br> 24 Hyrule Castle, Someplace NY</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>NEStalgia <i class="fa fa-flask"></i> EST 2021</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

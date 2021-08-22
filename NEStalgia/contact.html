@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="eng">
+<html>
+<head> 
+    <!-- Author:    Joseph Maiello
+     Date:          08/21/2021
+     File Name:     contact.html -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEStalgia | All your Brews are belong to us.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="nes_logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="Esports.html">ESPORTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact US</h1>   
+    </section>
+<!------- Contact Us ------->
+
+    
+    <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.5409869937957!2d-73.50352644912016!3d40.728120144464974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c280788183605f%3A0xd5b748c0f088a19d!2sHunter%20Business%20School%20-%20Levittown%20Campus!5e0!3m2!1sen!2sus!4v1629571491680!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>MUST ENTER CODE, 24 Hyrule Castle</h5>
+                            <p>Someplace NY</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+1 123-456-7890</h5>
+                            <p>Monday to Sunday 10 Am to 2 Am</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@areallyreallyfakeemaail.com</h5>
+                            <p>Email us your questions</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form method="post" action="contact-form-handler.php">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form> 
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Hey, Listen!</h4>
+        <p>Key-Code to enter is up, up, down, down, left, right, left, right, B, A and the Start button. <br> 24 Hyrule Castle, Someplace NY</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>NEStalgia <i class="fa fa-flask"></i> EST 2021</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
